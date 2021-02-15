@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://Hariharan:BytgZwVQJ9wSq1zY@contactmanager.mazwi.mongodb.net/test?retryWrites=true&w=majority",
+    "jsonsecret" : "secret"
+}

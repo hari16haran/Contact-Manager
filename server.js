@@ -1,10 +1,15 @@
 const express = require('express');
-
+const connectDb = require('./config/db');
 const app = express();
 
-app.get('/',(req,res)=>{
-    res.json({msg:"welcome new node project"});
-});
+
+//Connect MongoDb
+
+connectDb();
+
+//MiddleWare
+
+app.use(express.json({extended:false}));
 
 //Define Route
 
